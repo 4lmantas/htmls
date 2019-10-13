@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Darbas2</title>
+    <link rel="stylesheet" type="text/css" href="Darbas2.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/04b00d367c.js"></script>
+  </head>
+  <body class="container">
+    <header>
+      <h1>Search hundreds of travel sites at once</h1>
+    </header>
+    <div>
+      <select>
+        <option selected>Round-trip</option>
+        <option>23</option>
+      </select>
+      <select>
+        <option selected>Adult</option>
+        <option>1 Adult</option>
+        <option>2 Adults</option>
+        <option>3 Adult</option>
+      </select>
+      <select>
+        <option selected>Class</option>
+        <option>Economy class</option>
+        <option>Business class</option>
+      </select>
+    </div>
+    <div class="container2">
+      <input type="text" placeholder="Vilnius (VNO)" required />
+      <button><i class="fas fa-exchange-alt"></i></button>
+      <input type="text" placeholder="To?" required />
+      <input
+        placeholder="Depart"
+        class="textbox-n"
+        type="text"
+        onfocus="(this.type='date')"
+      />
+      <input
+        placeholder="Return"
+        class="textbox-n"
+        type="text"
+        onfocus="(this.type='date')"
+      />
+      <button><i class="fas fa-search"></i></button>
+    </div>
+  </body>
+</html>

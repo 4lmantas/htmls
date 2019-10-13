@@ -1,0 +1,64 @@
+body {
+  box-sizing: border-box;
+  background-color: #FA5A19;
+ 
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: left;
+
+}
+
+.selects {
+  margin-bottom: 25px;
+}
+
+select {
+  background: 0 0;
+  color: #fff;
+  border: 0;
+}
+
+.field-wrapper {
+  position: relative;
+  float: left;
+  margin-right: 5px;
+}
+
+.field-wrapper input {
+  background-color: orange;
+  color: #fff;
+  line-height: 30px;
+  border: 0;
+  padding-left: 38px;
+}
+
+.field-wrapper input::placeholder {
+  color: #fff;
+}
+
+.field-wrapper .fas {
+  color: #fff;
+  position: absolute;
+  padding: 8px 10px;
+}
+
+.field-wrapper button {
+  background-color: orange;
+  border: 0;
+  line-height: 30px;
+}
+
+.field-wrapper button .fas {
+  position: static;
+}
+
+.field-wrapper .submit {
+  background-color: #fff;
+}
+
+.field-wrapper .submit .fas {
+  color: orange;
+}
